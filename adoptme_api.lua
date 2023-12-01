@@ -1,6 +1,6 @@
 local load = require(game.ReplicatedStorage:WaitForChild("Fsys")).load;
 local router = load("RouterClient");
-local clientdata = l__load__1("ClientData");
+local clientdata = load("ClientData");
 
 -- items database
 local inventory = load("InventoryDB")
